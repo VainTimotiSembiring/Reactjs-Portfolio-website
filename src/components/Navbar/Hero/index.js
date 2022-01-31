@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '..';
+import { GlobalStyle } from '../../../GlobalStyle';
 import{ HeroContainer,
         HeroContent, 
         HeroItems,
@@ -14,6 +15,7 @@ const Hero = () => {
         <Navbar />
         <HeroContent>
             <HeroItems>
+            
                 <HeroH1>Vain Timoti Sembiring</HeroH1>
                 <HeroP>Just Ordinary Man</HeroP>
                 <HeroTmbl>see more</HeroTmbl>
