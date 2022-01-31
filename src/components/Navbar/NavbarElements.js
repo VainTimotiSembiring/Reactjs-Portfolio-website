@@ -1,10 +1,11 @@
 
 import styled from 'styled-components';
+import{ FaUserSecret } from 'react-icons/fa';
 import{ NavLink as Link } from 'react-router-dom';
-import{ FaBattleNet } from 'react-icons/fa';
+
 
 export const Nav = styled.nav`
-  background: red;
+  background: lightseagreen;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -40,7 +41,7 @@ export const NavIcon= styled.div`
 
   }
 `
-export const Bars = styled('FaBattleNet')`
+export const Bars = styled(FaUserSecret)`
   font-size: 2rem;
   transform: translate(-50%, -15%);
 
