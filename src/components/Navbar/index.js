@@ -1,5 +1,6 @@
 import React from 'react';
-import { Nav, NavLink } from "./NavbarElements";
+import { GlobalStyle } from '../../GlobalStyle';
+import { Bars, Nav, NavIcon, NavLink } from "./NavbarElements";
 
 
 
@@ -8,7 +9,14 @@ const Navbar = () => {
     <>
 
 
-  <Nav><NavLink to='/'>Portfolio</NavLink></Nav>
+  <Nav>
+    <NavLink to='/'>Portfolio</NavLink>
+    <NavIcon>
+      <p>Profile</p>
+      <Bars/>
+      <GlobalStyle/>
+    </NavIcon>
+  </Nav>
     
   
   </>
