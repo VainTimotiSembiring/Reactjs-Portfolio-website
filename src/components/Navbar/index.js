@@ -5,15 +5,15 @@ import { Bars, Nav, NavIcon, NavLink } from "./NavbarElements";
 
 
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <>
 
 
   <Nav>
-    <NavLink to='/'>Portofolio</NavLink>
-    <NavIcon>
-      <p>Profile</p>
+    <NavLink to='/'>Portfolio</NavLink>
+    <NavIcon onClick={toggle}>
+      <p>Categories</p>
       <Bars/>
       <GlobalStyle/>
     </NavIcon>
