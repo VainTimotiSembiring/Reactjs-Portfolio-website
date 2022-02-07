@@ -13,7 +13,7 @@ const Navbar = ({toggle}) => {
   <Nav>
     <NavLink to='/'>Portfolio</NavLink>
     <NavIcon onClick={toggle}>
-      <p>Categories</p>
+      <p>Menu</p>
       <Bars/>
       <GlobalStyle/>
     </NavIcon>

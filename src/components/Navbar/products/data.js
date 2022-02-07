@@ -7,27 +7,27 @@ export const productData = [
     {
         img:product1,
         alt: 'Facebook',
-        name: 'Vain Timoti Sembiring',
-        desc: 'terhubung melalui facebook, dan berbagi dengan teman',
-        item: 'Go to facebook',
-        button: "click"
+        name: 'Vain Timoti S Brahmana',
+        desc: 'Terhubung melalui facebook, dan berbagi dengan teman.',
+        item: 'Facebook Link',
+        button: "Click"
     },
 
     {
         img:product2,
         alt: 'Instagram',
         name: 'Vain Timoti Sembiring',
-        desc: 'Sharing foto dan video, melalui instagram',
-        item: 'Go to instagram',
-        button: "click"
+        desc: 'Sharing foto dan video, melalui instagram.',
+        item: 'Instagram Link',
+        button: "Click"
     },
 
     {
         img:product3,
         alt: 'Twitter',
-        name: 'Vain Timoti Sembiring',
-        desc: 'Saling tweet, dan berbagi melalui twitter',
-        item: 'Go to twitter',
-        button: "click"
+        name: 'Vain Timoti S Brahmana',
+        desc: 'Saling Tweet, dan berbagi melalui twitter.',
+        item: 'Twitter Link',
+        button: "Click"
     },
 ]

@@ -4,6 +4,7 @@ import{ FaUserSecret } from 'react-icons/fa';
 import{ NavLink as Link } from 'react-router-dom';
 
 
+
 export const Nav = styled.nav`
   background: transparent;
   height: 80px;
@@ -43,9 +44,14 @@ export const NavIcon= styled.div`
 `
 export const Bars = styled(FaUserSecret)`
   font-size: 2rem;
-  transform: translate(-50%, -15%);
+  transform: translate(-40%, -15%);
 
 `
+
+// export const Dashline3 = styled(FaDashcube)`
+//   font-size: 2rem;
+//   transform: translate(-100%, 50%);
+// `
 
 
     

@@ -27,8 +27,8 @@ const Hero = () => {
         <HeroContent>
             <HeroItems>
                 <HeroH1>Vain Timoti Sembiring</HeroH1>
-                <HeroP>Just Ordinary Man</HeroP>
-                <HeroTmbl>see more</HeroTmbl>
+                <HeroP>Intermediate level Developer</HeroP>
+                <HeroTmbl>See More</HeroTmbl>
             </HeroItems>
         </HeroContent>
     </HeroContainer>
