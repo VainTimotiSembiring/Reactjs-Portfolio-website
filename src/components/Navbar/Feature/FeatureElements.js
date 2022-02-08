@@ -32,11 +32,11 @@ export const FeatureButton = styled.button`
     padding: 0.6rem 3rem;
     border: none;
     background: #13e4f3;
-    color: #000;
+    color: #fff;
     transition: 0.2s ease-out;
 
     &:hover{
-        color: ; #fff;
+        color: #000;
         background: #e31837;
         transition: 0,2s ease-out;
         cursor: pointer;

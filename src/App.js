@@ -5,6 +5,8 @@ import Products from './components/Navbar/products';
 import { GlobalStyle } from './GlobalStyle';
 import { productData } from './components/Navbar/products/data';
 import Feature from './components/Navbar/Feature';
+import Footer from './components/Navbar/Footer';
+
 
 
 
@@ -16,6 +18,7 @@ function App() {
       <Hero/>
       <Feature />
       <Products heading ='Social Media' data={productData} />
+      <Footer />
     </Router>
   );
 }
